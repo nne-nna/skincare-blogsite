@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios'; // Add this import
+import axios from 'axios';
 import BlogCards from './BlogCards';
 import PaginationPage from './PaginationPage';
 import PageCategory from './PageCategory';
@@ -19,7 +19,7 @@ const BlogPage = ({ numberOfBlogs = 12, showSidebar = true }) => {
       setLoading(true);
       try {
         const response = await axios.get('/blogsData.json');
-        console.log('API Response:', response.data); // Debug log
+        console.log('API Response:', response.data); 
         
         if (Array.isArray(response.data)) {
           setBlogs(response.data);

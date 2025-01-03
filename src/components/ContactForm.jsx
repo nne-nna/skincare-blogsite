@@ -20,7 +20,6 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 1000));
     setIsSubmitting(false);
     setFormData({ name: '', email: '', message: '' });

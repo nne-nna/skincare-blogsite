@@ -1,6 +1,6 @@
 export const blogLoader = async ({ params }) => {
     const { id } = params; // Get the ID from the URL
-    const response = await fetch('/blogsData.json'); // Adjust path if needed
+    const response = await fetch('/blogsData.json'); 
     const blogs = await response.json();
 
     // Convert the id to a number before matching

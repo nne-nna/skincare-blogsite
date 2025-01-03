@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const BlogCards = ({blogs = [], currentPage, selectedCategory, pageSize}) => {
 
-    // Ensure blogs is an array
+
     const blogsArray = Array.isArray(blogs) ? blogs : [];
 
     const filteredBlogs = blogsArray

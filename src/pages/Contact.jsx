@@ -1,6 +1,6 @@
 import React from 'react'
-import ContactForm from '../components/ContactForm';  // Make sure the import is correct
-import ContactDetails from '../components/ContactDetails';  // Make sure the import is correct
+import ContactForm from '../components/ContactForm';  
+import ContactDetails from '../components/ContactDetails'; 
 import { assets } from '../assets/assets'
 
 const Contact = () => {
