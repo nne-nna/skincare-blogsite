@@ -13,10 +13,10 @@ const Footer = () => {
                     <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-[#e79f51] '>Home</a>
                   </li>
                   <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-[#e79f51]'>Blog</a>
+                    <a href='/blogs' className='text-gray-500 transition-colors duration-300 hover:text-[#e79f51]'>Blog</a>
                   </li>
                   <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-[#e79f51]'>Contact</a>
+                    <a href='/contact' className='text-gray-500 transition-colors duration-300 hover:text-[#e79f51]'>Contact</a>
                   </li>
                 </ul>
               </div>
